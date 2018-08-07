@@ -1,13 +1,14 @@
 <img align="right" width="200" title="logo: a letter W with two eyes"
 src="./assets/images/webo.svg">
 
-# Schema [![Build Status](https://travis-ci.org/pragdave/webo-schema.svg?branch=master)](https://travis-ci.org/pragdave/webo-schema)
+# Data [![Build Status](https://travis-ci.org/pragdave/webo-data.svg?branch=master)](https://travis-ci.org/pragdave/webo-data)
 
 
-Maintain a consistent schema of hosts, nodes, applications, and
-processes in an Erlang cluster.
+This is the data store for the statistics gathered by the webo
+monitoring system. Data can be written to us for hosts, nodes,
+applications, and processes. When data is changed, we generate triggers
+which allow subscribers to update their views.
 
-We're part of the WebO monitoring system.
 
 
 
